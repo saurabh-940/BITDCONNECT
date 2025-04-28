@@ -1,0 +1,90 @@
+/* ClubCard */
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+.card {
+  height: 30rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* overflow: hidden; */
+  /* background-color: #757270;` */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper.nine {
+  font-family: "Arvo", serif;
+  color: #182848;
+}
+.rotate span {
+  font-size: 5.4rem;
+  color: #182848;
+  display: inline-flex;
+  animation: rotate 6s infinite;
+}
+/* @keyframes rotate {
+  0%,
+  75% {
+    transform: rotateX(360deg);
+  }
+}
+.nine span:nth-of-type(1) {
+  animation-delay: 0.2s;
+}
+.nine span:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+.nine span:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+.nine span:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+.nine span:nth-of-type(5) {
+  animation-delay: 1s;
+}
+.nine span:nth-of-type(6) {
+  animation-delay: 1.2s;
+}
+.nine span:nth-of-type(7) {
+  animation-delay: 1.4s;
+}
+.nine span:nth-of-type(8) {
+  animation-delay: 1.6s;
+}
+.nine span:nth-of-type(9) {
+  animation-delay: 1.8s;
+}
+.nine span:nth-of-type(10) {
+  animation-delay: 2s;
+} */
+
+.explore {
+  /* display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: $color-btn-text;
+    background-color: $color-btn-background;
+    border: none;
+    border-radius: .4rem;
+    transition: $transition;
+    cursor: pointer; */
+  display: block;
+  width: 80%;
+  height: 2.4rem;
+  margin-left: 1.7rem;
+  background-color: rgb(188, 217, 244);
+  border: none;
+  color: rgb(36, 81, 176);
+}
+.titel {
+  font-size: 2rem;
+}

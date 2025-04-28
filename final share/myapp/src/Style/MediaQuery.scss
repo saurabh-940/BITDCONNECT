@@ -1,0 +1,22 @@
+@media screen and (max-width:600px){
+    .event{
+        flex-direction: column;
+    }
+    .event_details{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 800px) {
+  header {
+    grid-template-columns: 1fr !important;
+    justify-items: center;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1000px){
+  .container-fluid{
+    justify-content: center;
+  }
+}
+
+

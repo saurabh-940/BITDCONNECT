@@ -1,0 +1,32 @@
+.event{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 19px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.event_poster{
+    object-fit: contain;
+    margin-right: 1.5rem;
+}
+.event_details{
+    display: flex;
+    flex-direction: column;
+
+    >div >a{
+        margin-right: 2rem;
+        text-decoration: none;
+    }
+    // >.posted_date{
+    //     display: flex;
+    //     justify-content: flex-end;
+    // }
+}
+.posted_date{
+    >button{
+        border-radius: 10px;
+        background-color:rgb(206, 64, 61);
+    }
+}
